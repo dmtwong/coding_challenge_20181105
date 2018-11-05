@@ -1,0 +1,34 @@
+---
+title: "coding_challenge_readme_20181105"
+author: "David Wong"
+date: "November 5, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Readme
+
+```
+- Python 2.7 (IDE: Anaconda) and Windows 10 (Bash on Ubuntu)
+- Python: os is imported 
+
+Problem:  
+
+A newspaper editor was researching immigration data trends on H1B(H-1B,H-1B1, E-3) visa application processing over the past years, trying to identify the occupations and states with the most number of approved H1B visas. She has found statistics available from the US Department of Labor and its Office of Foreign Labor Certification Performance Data. But while there are ready-made reports for 2018 and 2017, the site doesnt have them for past years.
+
+As a data engineer, you are asked to create a mechanism to analyze past years data, specificially calculate two metrics: Top 10 Occupations and Top 10 States for certified visa applications.
+
+Your code should be modular and reusable for future. If the newspaper gets data for the year 2019 (with the assumption that the necessary data to calculate the metrics are available) and puts it in the input directory, running the run.sh script should produce the results in the output folder without needing to change the code.
+
+Approach:  
+
+Using the demo file to develope the solution. Starting from the straight forward way and then modularize by writing a class to hash the count for specific occuputation/state and then sort among those who have same occuputation/state.  
+
+This is not a final product that one would be satifisied as specification is not fully documented unit test is not well written class should be seperately store in another script and it contains too much things that are repeated... It would certainly be better if I could have more time to work on this challenge and have more experience in ubuntu. I am sorry for the late submission as it would be greatly appreciated if you would still like to process this application submission... Thanks.
+
+Run: only h1b_counting.py
+
+```
